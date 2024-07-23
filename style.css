@@ -10,6 +10,31 @@
 }
 .home-container p{
     text-align: center;
-    padding: 90px 0px;
+    padding: 37px 0px;
     font-size: 45px;
+}
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+.header-container-1{
+    width: 20%;
+}
+.header-container-2{
+    width: 60%;
+}
+.header-container-3{
+    width: 20%;
+}
+.header-container-3 button{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    height: 30px;
+    padding: 3px 5px;
+    border-radius: 15px;
 }
