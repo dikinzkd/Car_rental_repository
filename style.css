@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home-container{
+    height: 100vh;
+    background-image: url(./image\ -1.png.png);
+    background-position: center;
+    color: white;
+}
+.home-container p{
+    text-align: center;
+    padding: 90px 0px;
+    font-size: 45px;
+}
