@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+#Home{
+    margin-bottom: 30px;
+}
 .home-container{
     height: 100vh;
     background-image: url(./image\ -1.png.png);
@@ -10,7 +13,7 @@
 }
 .home-container p{
     text-align: center;
-    padding: 37px 0px;
+    padding: 25px 0px;
     font-size: 45px;
 }
 .header{
@@ -37,4 +40,43 @@
     height: 30px;
     padding: 3px 5px;
     border-radius: 15px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left:120px ;
+}
+.form{
+    margin-top:-50px ;
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+   
+    align-items: center;
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0n, 0, 3);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200p;
+}
+.input p{
+    font-size: 14px;
+    padding: 7px 0px;
+}
+.input input{
+    padding: 10px;
+    border:1px solid gray ;
+    border-radius: 5px;
+}
+.input button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
 }
