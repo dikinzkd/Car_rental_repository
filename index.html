@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Car_Rental</title>
 </head>
@@ -9,14 +10,14 @@
     <section id="Home">
        <div class="home-container ">
            <div class="header">
-            <div class="header-container header-container-1">
+              <div class="header-container header-container-1">
                 <svg width="35px" height="15" viewBox="0 0 41 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line x1="1.5" y1="1.5" x2="39.5" y2="1.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
                     <line x1="1.5" y1="13.5" x2="39.5" y2="13.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
-                    </svg>
+                </svg>
                      
-            </div>
-            <div class="header-container header-container-2">
+              </div>
+              <div class="header-container header-container-2">
                 <svg width="179" height="17" viewBox="0 0 179 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.415466 16.4882H13.8075V13.8962H3.77547V0.264244H0.415466V16.4882Z" fill="white"/>
                     <path d="M27.699 16.4882C30.219 16.4882 32.211 15.8882 33.675 14.6642C35.139 13.4642 35.883 11.6402 35.907 9.21624V0.000244141H32.547V9.33624C32.547 10.8482 32.115 11.9762 31.275 12.7202C30.435 13.4882 29.259 13.8722 27.747 13.8722C26.235 13.8722 25.059 13.4642 24.195 12.6722C23.355 11.9042 22.923 10.7522 22.923 9.24024V0.000244141H19.563V9.33624C19.587 11.7122 20.307 13.4882 21.771 14.6882C23.211 15.8882 25.179 16.4882 27.699 16.4882Z" fill="white"/>
@@ -27,30 +28,38 @@
                     <path d="M130.465 16.4882H133.825V0.264244H130.465V16.4882Z" fill="white"/>
                     <path d="M147.525 16.4882H150.477L158.421 0.144244H154.773L149.037 12.3842L143.277 0.144244H139.581L147.525 16.4882Z" fill="white"/>
                     <path d="M164.189 13.9442V16.4882H178.589V13.9442H164.189ZM164.189 7.03224V9.57624H178.589V7.03224H164.189ZM164.189 0.264244V2.80824H178.589V0.264244H164.189Z" fill="white"/>
-                    </svg>
+                </svg>
                     
-            </div>
-            <div class="header-container header-container-3">
+              </div>
+               <div class="header-container header-container-3">
                 <button>Log in/ Register</button>   
-            </div>
+               </div>
            </div>
-        <p>Discover the world on wheels <br>
+          <p>Discover the world on wheels <br>
             with our car rental service</p>
        </div>
 
         <div class="form-container form">
             <div class="input">
                 <p>pick up location</p>
-               <input type="text" placeholder="search location">
+                <div class="input-container">
+                    <input type="text" placeholder="search location">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
             </div>
+
             <div class="input">
                <p>pick-up date</p>
                <input type="date">
             </div>
+            
             <div class="input">
                <p>Drop-off location</p>
                <p>
-               <input type="text" placeholder="search location">
+                <div class="input-container">
+                    <input type="text" placeholder="search location">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
             </div>
             <div class="input">
                <p>Drop-off date</p>
@@ -58,13 +67,39 @@
             </div>
             <div class="input">
                <button>find a vehicle
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.75 9H14.25M14.25 9L9 3.75M14.25 9L9 14.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                    
+                <i class="fa-solid fa-arrow-right"></i>                  
                </button>
             </div>
         </div>
 
+    </section>
+
+    <section id="Brand-section">
+      <div class="brand-section-container">
+               <div class="brand-section-header">
+                <h3>Rent by Brands</h3>
+                <div class="brand-section-button">
+                    <a href="">
+                        view all
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+               </div>
+        <div class="brand-container">
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+               <div class="brand-content"></div>
+        </div>
+      </div>
     </section>
 </body>
 </html>
