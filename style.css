@@ -94,21 +94,69 @@
     position: absolute;
     top: 102%;
 }
-#Brand-section{
+#Brand-section, #body-type-section, #collection-section, .collection-header-container{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
 }
-.brand-section-containe{
-    /*width: 90vw;*/
+.brand-section-container, .body-section-container, .collection-container{
+    width: 90vw;
 }
-.brand-section-header{
+.brand-section-header, .bod-section-header{
     display: flex;
-    /*padding-right: 900px;*/
-    gap: 950px;
+    justify-content: space-between;
 }
-.brand-section-button{
-    width: 5.%;
+.brand-section-button, .body-section-button{
+    width: 80%;
     display: flex;
     justify-content: end;
+}
+.body-type-button{
+    width: 90%;
+}
+.brand-section-button a, .body-section-button a{
+    text-decoration: none;
+    color: black;
+}
+.brand-container, .body-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brand-content, .body-content{
+    width: 15%;
+    height: 100px;
+    background-color: #E5E4E2;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#collection-section{
+    background-color: #E5E4E2;
+    padding-bottom: 20px;
+    margin: unset;
+}
+.collection-header{
+    width: 55%;
+    text-align: center;
+}
+.collection-header p{
+    padding: 15px 0px;
+}
+.collection-header ul li{
+    display: inline;
+    padding: 7px 5px;
+}
+.collection-header ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+.collection-header ul li:first-of-type a{
+    background-color: black;
+    color: white;
 }
