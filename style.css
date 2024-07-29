@@ -160,3 +160,77 @@
     background-color: black;
     color: white;
 }
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.collection-items{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 8px 0px;
+}
+ .img-container, .specs-container, .button-container{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+    border-radius: 20px;
+}
+.collection-items img{
+    width: 95%;
+    height: auto;
+}
+.details-container{
+    margin: 8px;
+}
+.details-container h2{
+    margin: 5px 0px;
+}
+.details-container h2 sub{
+    font-weight: 100;
+    color: gray;
+}
+.specs-container, .button{
+    margin: 10px 0px;
+    padding-left: unset;
+}
+.specs-contente{
+    width: 95%;
+    height: 80px;
+    background-color: #E5E4E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.button{
+    width: 95%;
+}
+.button button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.collection-items-2{
+    border: 2px solid black;
+}
+.collection-items-2 button{
+    background-color: black;
+    color: white;
+}
+.see-all-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.see-all-button button{
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
