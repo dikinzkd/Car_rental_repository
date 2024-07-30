@@ -94,12 +94,20 @@
     position: absolute;
     top: 102%;
 }
-#Brand-section, #body-type-section, #collection-section, .collection-header-container{
+#Brand-section, 
+#body-type-section, 
+#collection-section,
+#work-section, 
+.collection-header-container,
+.work-header-container{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
 }
-.brand-section-container, .body-section-container, .collection-container{
+.brand-section-container,
+ .body-section-container, 
+ .collection-container, 
+ .work-section-container{
     width: 90vw;
 }
 .brand-section-header, .bod-section-header{
@@ -138,11 +146,13 @@
     padding-bottom: 20px;
     margin: unset;
 }
-.collection-header{
+.collection-header,
+.work-header{
     width: 55%;
     text-align: center;
 }
-.collection-header p{
+.collection-header p,
+.work-header p{
     padding: 15px 0px;
 }
 .collection-header ul li{
@@ -233,4 +243,60 @@
     color: white;
     border: none;
     border-radius: 30px;
+}
+.work-header h1{
+    font-family: sans-serif;
+}
+.work-containere{
+    display: flex;
+    position: relative;
+}
+.work-containere .work-content-empty{
+    width: 30%;
+}
+.work-content-steps{
+    position: absolute;
+    width: 45%;
+}
+.steps-container{
+    display: flex;
+    background-color: white;
+    border: solid .5px rgb(237, 237, 237);
+    border-radius: 5PX;
+    padding: 20px 5px;
+    margin: 30px 3px;
+    justify-content: center;
+}
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.steps-contente h3{
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+.step-icon{
+    background-color: rgb(237, 237, 237);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.steps-contente h3 {
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+.steps-contente p{
+    text-align: justify;
+    padding-right: 45px;
+    padding-left: 5px;
+}
+.work-containere .car-img{
+    width: 70%;
+    background-color: #E5E4E2;
+    right: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    height: 435px;
 }
