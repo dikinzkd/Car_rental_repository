@@ -5,6 +5,7 @@
 #Home{
     margin-bottom: 30px;
 }
+/*home-section*/
 .home-container{
     height: 100vh;
     background-image: url(./image\ -1.png.png);
@@ -41,7 +42,7 @@
     padding: 3px 5px;
     border-radius: 15px;
 }
-
+/*second-prt-style*/
 .form-container{
     display: flex;
     justify-content: center;
@@ -94,12 +95,15 @@
     position: absolute;
     top: 102%;
 }
+/*section-style*/
 #Brand-section, 
 #body-type-section, 
 #collection-section,
 #work-section, 
+#service-section,
 .collection-header-container,
-.work-header-container{
+.work-header-container,
+.service-header-container{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
@@ -107,7 +111,8 @@
 .brand-section-container,
  .body-section-container, 
  .collection-container, 
- .work-section-container{
+ .work-section-container,
+ .service-section-container{
     width: 90vw;
 }
 .brand-section-header, .bod-section-header{
@@ -141,18 +146,21 @@
     justify-content: center;
     align-items: center;
 }
+/*collection-part-style & work-part*/
 #collection-section{
     background-color: #E5E4E2;
     padding-bottom: 20px;
     margin: unset;
 }
 .collection-header,
-.work-header{
+.work-header,
+.service-header{
     width: 55%;
     text-align: center;
 }
 .collection-header p,
-.work-header p{
+.work-header p,
+.service-header p{
     padding: 15px 0px;
 }
 .collection-header ul li{
@@ -191,6 +199,7 @@
     width: 95%;
     height: auto;
 }
+/*other-in-my-bazzard*/
 .details-container{
     margin: 8px;
 }
@@ -299,4 +308,34 @@
     display: flex;
     justify-content: end;
     height: 435px;
+}
+/*service-part-style*/
+#service-section{
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.service-items .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon-container .service-icon{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+.service-items .icon-contents{
+    padding-top: 15px;
+    text-align: center;
+}
+.icon-contents p{
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
