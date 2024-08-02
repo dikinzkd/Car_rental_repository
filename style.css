@@ -108,7 +108,8 @@ a{
 #download-section,
 .collection-header-container,
 .work-header-container,
-.service-header-container{
+.service-header-container,
+footer{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
@@ -119,7 +120,8 @@ a{
  .work-section-container,
  .service-section-container,
  .comment-container,
- .download-container{
+ .download-container,
+ .footer-container{
     width: 90vw;
 }
 .brand-section-header, .bod-section-header, .comment-section-header{
@@ -427,4 +429,34 @@ a{
 }
 .download-text-button h3 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*footer-styling*/
+footer{
+    margin: unset;
+    background-color: black;
+    padding: 30px 0px;
+    color: white;
+}
+.footer-container{
+    display: flex;
+}
+.footer-logo{
+    display: flex;
+    width: 20%;
+    justify-content: start;
+}
+.footer-nav{
+    width: 60%;
+    text-align: center;
+}
+.footer-nav ul li,
+.footer-social ul li{
+    display: inline;
+}
+.footer-nav ul li a,
+.footer-social ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
 }
