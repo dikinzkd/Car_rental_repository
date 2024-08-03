@@ -1,5 +1,4 @@
 @media (max-width: 600px) {
-#service-section,
 #comment-section,
 #download-section,
 footer{
@@ -28,14 +27,17 @@ footer{
     width: 70%;
 }
 /*collection-sec*/
-.collection-header{
+.collection-header,
+.work-header,
+.service-header{
     width: 90%;
 }
 .collection-header ul li{
     display: block;
     margin-top: 10px;
 }
-.collection-grid{
+.collection-grid,
+.service-grid{
     grid-template-columns: auto;
 }
 /*work section*/
