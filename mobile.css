@@ -1,5 +1,4 @@
 @media (max-width: 600px) {
-#work-section, 
 #service-section,
 #comment-section,
 #download-section,
@@ -38,5 +37,27 @@ footer{
 }
 .collection-grid{
     grid-template-columns: auto;
+}
+/*work section*/
+.work-containere{
+    flex-direction: column;
+    
+}
+.work-containere,.car-img{
+    width: 100%;
+    height: auto;
+
+}
+.car-img{
+    width: 70%;
+    height: auto;
+    padding-left: 150px;
+}
+.work-content-empty{
+    display: none;
+}
+.work-content-steps{
+    position: relative;
+    width: 100%;
 }
 }
