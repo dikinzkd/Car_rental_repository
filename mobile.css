@@ -60,6 +60,7 @@ footer{
     position: relative;
     width: 100%;
 }
+/*comment section*/
 .comment-button button{
     height: 30px;
     width: 30px;
@@ -69,5 +70,13 @@ footer{
 }
 .comment-section-content p{
     font-size: 15px;
+}
+/*download section*/
+.download-container{
+    flex-direction: column;
+}
+.download-container .download-contents{
+    width: 100%;
+    padding: 10px;
 }
 }
