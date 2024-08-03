@@ -1,5 +1,4 @@
 @media (max-width: 600px) {
-#collection-section,
 #work-section, 
 #service-section,
 #comment-section,
@@ -28,5 +27,16 @@ footer{
 }
 .brand-content svg, .body-content svg{
     width: 70%;
+}
+/*collection-sec*/
+.collection-header{
+    width: 90%;
+}
+.collection-header ul li{
+    display: block;
+    margin-top: 10px;
+}
+.collection-grid{
+    grid-template-columns: auto;
 }
 }
