@@ -441,6 +441,10 @@ footer{
 .footer-container{
     display: flex;
 }
+.footer-container{
+    display: flex;
+}
+
 .footer-logo{
     display: flex;
     width: 20%;

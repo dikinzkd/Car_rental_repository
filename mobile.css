@@ -1,7 +1,4 @@
 @media (max-width: 600px) {
-footer{
-     display: none;
-}
 /*home-section*/
 .header-container-3{
     display: none;
@@ -79,4 +76,17 @@ footer{
     width: 100%;
     padding: 10px;
 }
+/*footer*/
+.footer-container{
+    flex-direction: column;
+}
+.footer-logo, .footer-nav, .footer-social{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-logo{
+    display: none;
+}
+
 }
