@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+#Brand-section, 
+#body-type-section, 
+#collection-section,
+#work-section, 
+#service-section,
+#comment-section,
+#download-section,
+footer{
+     display: none;
+}
+.header-container-3{
+    display: none;
+}
+.home-container p{
+    font-size: 20px;
+}
+.form-container{
+    align-items: center;
+}
+.form{
+    flex-direction: column;
+    width: 70%;
+}
+}
