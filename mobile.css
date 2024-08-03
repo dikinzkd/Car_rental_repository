@@ -1,6 +1,4 @@
 @media (max-width: 600px) {
-#comment-section,
-#download-section,
 footer{
      display: none;
 }
@@ -61,5 +59,15 @@ footer{
 .work-content-steps{
     position: relative;
     width: 100%;
+}
+.comment-button button{
+    height: 30px;
+    width: 30px;
+}
+.comment-section-header h1{
+    font-size: 20px;
+}
+.comment-section-content p{
+    font-size: 15px;
 }
 }
