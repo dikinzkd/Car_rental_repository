@@ -1,6 +1,4 @@
 @media (max-width: 600px) {
-#Brand-section, 
-#body-type-section, 
 #collection-section,
 #work-section, 
 #service-section,
@@ -9,17 +7,26 @@
 footer{
      display: none;
 }
+/*home-section*/
 .header-container-3{
     display: none;
 }
 .home-container p{
-    font-size: 20px;
+    font-size: 30px;
 }
 .form-container{
+    height: 400px;
     align-items: center;
 }
 .form{
     flex-direction: column;
+    width: 70%;
+}
+/*brand-sec*/
+.brand-content, .body-content{
+    width: 30%;
+}
+.brand-content svg, .body-content svg{
     width: 70%;
 }
 }
